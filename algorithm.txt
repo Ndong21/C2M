@@ -1,0 +1,50 @@
+# Task: Develop a coffee machine management (C2M) 
+
+# objective: Develop a Python application that simulates the management of a coffee machine. 
+            The program should handle inventory management for coffee, water, milk, and sugar, 
+            and prepare beverages according to user requests.
+
+# Description:
+
+Your task is to create a program that manages a coffee machine with the following functionalities:
+
+Inventory Management:
+
+ • The machine must have inventories for coffee, water, milk, and sugar.
+ • The initial quantities of each ingredient are set at the start of the program.
+
+Beverage Preparation:
+
+ • The machine should be able to prepare the following beverages:
+ • Espresso: requires 50 ml of water and 20 g of coffee.
+ • Café au lait: requires 30 ml of water, 20 g of coffee, and 100 ml of milk.
+ • Coffee with sugar: requires 50 ml of water, 20 g of coffee, and 10 g of sugar.
+ • Café au lait with sugar: requires 30 ml of water, 20 g of coffee, 100 ml of milk, and 10 g of sugar.
+
+User Interface:
+
+ • The program should offer a command-line interface where the user can select the beverage they wish to prepare.
+ • The program must check if the necessary ingredients are available and inform the user if the preparation is possible or not.
+ • If preparation is possible, the ingredient quantities should be updated accordingly.
+
+Inventory Display:
+
+ • The program should allow the user to check the current state of ingredient stocks.
+
+Error Handling:
+
+ • The program must handle cases where ingredients are insufficient to prepare the requested beverage and display an appropriate message.
+
+ Algorithm:
+
+ 1. Define containers to hold quantities of the ingredients water, milk, coffee, sugar
+ 2. Get initial quantities of each ingredient upon program start
+ 3. Display the menu of possible drinks that can be prepared (Espresso, cafe au lait, coffee with sugar, cafe au lait with sugar)
+ 4. Allow user to enter the choice of drink to be prepared
+ 5. check the inventory based on the choice made by user and inform user if the preparation is possible or not.
+ 6. if preparation is possible, update the ingredient quantities now left.
+ 7. if preparation is not possible, display an appropriate message.
+ 8. ask the user if they will like to view the current inventory of stocks
+ 9. if they say yes to 8, display the available stocks
+ 10. if they say no, display the text "ok, thank you".
+
